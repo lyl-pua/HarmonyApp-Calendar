@@ -41,7 +41,7 @@ export class date {
 //   let httpRequest = http.createHttp();
 //   let tmp = year.toString() + (month < 10 ? "0" : "") + month.toString();
 //   let url = 'https://www.mxnzp.com/api/holiday/list/month/' + tmp +
-//   '?ignoreHoliday=false&app_id=xljlk9pdslpnjqi9&app_secret=JDSTVBDRBwBNO9LXa5622S3dSxL11z2Z';
+//   '?ignoreHoliday=false&app_id=YOUR_APP_ID&app_secret=YOUR_APP_SECRET';
 //   return new Promise((resolve, reject) => {
 //     httpRequest.request(url, (err, res) => {
 //       if (!err) {
