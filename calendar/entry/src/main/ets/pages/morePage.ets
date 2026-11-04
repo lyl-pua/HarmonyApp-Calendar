@@ -33,7 +33,7 @@ struct MorePage {
     let httpRequest = http.createHttp();
     let result = router.getParams()['date'].replace(/-/g, '');
     let url = 'https://www.mxnzp.com/api/holiday/single/' + result +
-    '?ignoreHoliday=false&app_id=xljlk9pdslpnjqi9&app_secret=JDSTVBDRBwBNO9LXa5622S3dSxL11z2Z';
+    '?ignoreHoliday=false&app_id=YOUR_APP_ID&app_secret=YOUR_APP_SECRET';
     httpRequest.request(url, {
       readTimeout: 3000,
     },(err, res) => {
